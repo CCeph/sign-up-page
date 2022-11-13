@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh);
+    box-sizing: border-box;
+    background-image: url("resources/sandro-katalina-k1bO_VTiZSs-unsplash.jpg");
+    background-size: cover;
+}
+
+.form-container {
+    flex: auto;
+    background-color: black;
+    max-width: 960px;
+    height: 540px;
+    margin: auto;
+}
