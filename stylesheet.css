@@ -35,3 +35,46 @@ body {
     flex: 1.5 1 0;
     background: #482dc0;
 }
+
+.right-form h1, .right-form h2, .right-form h3 {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+}
+
+.right-form hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #F51BC8;
+    border-radius: 10px;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+label {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1em;
+    color: white;
+}
+
+form button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 5px;
+    background-color: #C420D3;
+    border-radius: 5px;
+    
+}
