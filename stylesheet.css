@@ -10,8 +10,7 @@ body {
     justify-content: center;
     height: calc(100vh);
     box-sizing: border-box;
-    background-image: url("resources/sandro-katalina-k1bO_VTiZSs-unsplash.jpg");
-    background-size: cover;
+    background: #00001A;
 }
 
 .main-container {
@@ -20,4 +19,19 @@ body {
     max-width: 960px;
     height: 540px;
     margin: auto;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.left-image {
+    flex: 1 1 0;
+    background-image: url(resources/Loading.gif);
+    background-size: cover;
+}
+
+.right-form {
+    flex: 1.5 1 0;
+    background: #482dc0;
 }
