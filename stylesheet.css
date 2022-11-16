@@ -84,23 +84,3 @@ form button {
     border: 1px solid;
     
 }
-
-.life-path {
-    margin: 10px auto;
-    text-align: center;
-    width: 80%;
-}
-
-.life-path p, .life-path span {
-    border: 1px solid black;
-    padding: 10px;
-}
-
-.life-choices {
-    margin: 0px;
-    display: flex;
-}
-
-.life-path span {
-    flex: 1;
-}
