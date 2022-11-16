@@ -17,7 +17,6 @@ body {
     flex: auto;
     background-color: #482dc0;
     max-width: 960px;
-    max-height: 600px;
     margin: auto;
     padding: 0;
     display: flex;
@@ -83,4 +82,31 @@ form button {
     border-radius: 5px;
     border: 1px solid;
     
+}
+
+table, tr, td, th{
+    border: 1px solid black;
+}
+
+table {
+    width: 80%;
+    margin: 2rem auto;
+    background: #8367ff;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr + tr {
+    display: flex;
+}
+
+tr td {
+    flex: 1;
+}
+
+form :is(th, td) {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
