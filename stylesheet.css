@@ -15,12 +15,13 @@ body {
 
 .main-container {
     flex: auto;
-    background-color: black;
+    background-color: #482dc0;
     max-width: 960px;
-    height: 540px;
+    max-height: 540px;
     margin: auto;
+    padding: 0;
     display: flex;
-    border: 1px solid transparent;
+    border: 0 solid transparent;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -34,6 +35,8 @@ body {
 .right-form {
     flex: 1.5 1 0;
     background: #482dc0;
+    overflow: auto;
+    margin: 10px;
 }
 
 .right-form h1, .right-form h2, .right-form h3 {
