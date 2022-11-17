@@ -13,6 +13,11 @@
     src: url("resources/fonts/form-font/Nau-Sea.woff") format("woff");
 }
 
+@font-face {
+    font-family: 'buttonFont';
+    src: url('resources/fonts/button-font/good-timing-bd.woff') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -111,6 +116,9 @@ form button {
     background-color: #C420D3;
     border-radius: 5px;
     border: 1px solid;
+    font-family: buttonFont;
+    letter-spacing: 0.15em;
+    font-size: 1.5em;
     
 }
 
