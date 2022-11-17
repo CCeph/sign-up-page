@@ -23,16 +23,16 @@
 
             <form action="">
                 <label for="user-name">Character Name: </label>
-                <input type="text" name="user-name" id="user-name">
+                <input type="text" name="user-name" id="user-name" title="Name may only include numbers and letters with no white space. Must be between 3-30 characters." pattern="([a-zA-Z0-9]){3,30}">
 
                 <label for="email">E-mail: </label>
                 <input type="email" name="email" id="email">
 
                 <label for="password">Enter your password: </label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" title="UpperCase, LowerCase and Number. Minimum of 8 characters." minlength="8" maxlength="256" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
 
                 <label for="password-confirm">Confirm your password: </label>
-                <input type="password" name="password-confirm" id="password-confirm">
+                <input type="password" name="password-confirm" id="password-confirm" title="UpperCase, LowerCase and Number. Minimum of 8 characters." minlength="8" maxlength="256" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
                 
                 <table>
                     <tr>
