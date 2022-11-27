@@ -122,20 +122,25 @@ form button {
     
 }
 
-table, tr, td, th{
+/*Lifepath table styling*/
+
+table {
+    margin: 1em;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 2rem auto;
+    background: #8367ff;
+    text-align: center;
+  }
+  
+  table th,
+  table td {
     border: 1px solid black;
     font: 1em formFont;
     color: white;
     letter-spacing: 0.15em;
-}
-
-table {
-    width: 80%;
-    margin: 2rem auto;
-    background: #8367ff;
-    border-collapse: collapse;
-    text-align: center;
-}
+  }
 
 table tr + tr {
     display: flex;
