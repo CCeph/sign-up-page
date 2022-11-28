@@ -16,16 +16,11 @@ Acknowledged limitations:
     passwords match.
 
 Remaining work to be executed:
-
-    Add "*" to every form element that is required.
-
-    Add more styling to the "Create Character" button.
-        Add styling when it is pressed down.
+    
+    Add link to sign in.
 
     Adjust the text of the validation messages.
         Password validation should mention the password limit
         only if the user exceeded it.
     
     Credit the animator of the gif.
-
-    Animate the borders of focus so that they fade in.
