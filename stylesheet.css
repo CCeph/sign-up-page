@@ -113,7 +113,7 @@ label > span {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-form button {
+form > button {
     display: block;
     margin: 15px auto;
     margin-top: 2rem;
@@ -185,13 +185,44 @@ table tr + tr {
     display: flex;
 }
 
-tr td {
-    flex: 1;
-}
-
 form :is(th, td) {
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+tr td {
+    flex: 1;
+    padding: 0;
+}
+
+/* Styling for the lifepath choice buttons */
+
+form table tr td button {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font: 1em formFont;
+    color: white;
+    letter-spacing: 0.15em;
+    background: #8367ff;
+    border: 0;
+}
+
+/* Lifepath table interactive styling */
+
+#blackhat > button:hover {
+    background-color: black;
+}
+
+#whitehat > button:hover {
+    background-color: white;
+    color: black;
+}
+
+#vigilante > button:hover {
+    background-color: silver;
+    color: black;
 }
