@@ -113,7 +113,7 @@ form button {
     margin: 0 auto;
     margin-top: 2rem;
     padding: 5px;
-    background-color: #C420D3;
+    background-color: #ef65fc;
     border-radius: 5px;
     border: 1px solid;
     font-family: buttonFont;
@@ -126,11 +126,15 @@ form button {
     valid and invalid. */
 
 input:focus {
-    border: 2px solid #C420D3;
+    border: 2px solid #ef65fc;
     border-radius: 5px;
     outline: 0;
 
     box-shadow: 5px 5px 15px 1px rgba(22, 22, 22, 0.747);
+}
+
+input:focus:invalid {
+    border: 3px solid red;
 }
 
 /* Lifepath table styling */
