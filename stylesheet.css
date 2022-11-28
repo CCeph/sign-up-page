@@ -148,8 +148,7 @@ form > button:hover {
     box-shadow: 0 0 1px 1px black;
     background-color: #da5ae6;
     
-    transition: box-shadow 0.3s;
-    transition: background-color 0.3s;
+    transition: box-shadow 0.3s, background-color 0.3s;
 }
 
 form > button:active {
