@@ -22,16 +22,16 @@
             </div>
 
             <form action="">
-                <label for="user-name">Character Name: </label>
+                <label for="user-name">Character Name: <span aria-label="required">*</span></label>
                 <input type="text" name="user-name" id="user-name" title="Name may only include numbers and letters with no white space. Must be between 3-30 characters." pattern="([a-zA-Z0-9]){3,30}" autocomplete="off" required>
 
-                <label for="email">E-mail: </label>
+                <label for="email">E-mail: <span aria-label="required">*</span></label>
                 <input type="email" name="email" id="email" required>
 
-                <label for="password">Enter your password: </label>
+                <label for="password">Enter your password: <span aria-label="required">*</span></label>
                 <input type="password" name="password" id="password" title="UpperCase, LowerCase and Number. Minimum of 8 characters." minlength="8" maxlength="256" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
 
-                <label for="password-confirm">Confirm your password: </label>
+                <label for="password-confirm">Confirm your password: <span aria-label="required">*</span></label>
                 <input type="password" name="password-confirm" id="password-confirm" title="UpperCase, LowerCase and Number. Minimum of 8 characters." minlength="8" maxlength="256" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
                 
                 <table>

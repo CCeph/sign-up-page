@@ -108,6 +108,10 @@ label {
     letter-spacing: 0.15em;
 }
 
+label > span {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 form button {
     display: block;
     margin: 15px auto;
