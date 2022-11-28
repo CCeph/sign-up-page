@@ -110,7 +110,7 @@ label {
 
 form button {
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
     margin-top: 2rem;
     padding: 5px;
     background-color: #ef65fc;
@@ -135,6 +135,22 @@ input:focus {
 
 input:focus:invalid {
     border: 3px solid red;
+}
+
+/* Interactive styling for the Create Character button */
+
+form > button:hover {
+    box-shadow: 0 0 1px 1px black;
+    background-color: #da5ae6;
+    
+    transition: box-shadow 0.3s;
+    transition: background-color 0.3s;
+}
+
+form > button:active {
+    background: #da5ae6;
+    box-shadow: -0.5px 0.5px 2px 2px black;
+    outline: 3px;
 }
 
 /* Lifepath table styling */
