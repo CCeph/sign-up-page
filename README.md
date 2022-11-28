@@ -17,10 +17,4 @@ Acknowledged limitations:
 
 Remaining work to be executed:
     
-    Add link to sign in.
-
-    Adjust the text of the validation messages.
-        Password validation should mention the password limit
-        only if the user exceeded it.
-    
     Credit the animator of the gif.
