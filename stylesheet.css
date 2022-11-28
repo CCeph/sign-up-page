@@ -217,12 +217,26 @@ form table tr td button {
     background-color: black;
 }
 
+#blackhat > .selected {
+    background-color: black;
+}
+
 #whitehat > button:hover {
     background-color: white;
     color: black;
 }
 
+#whitehat > .selected {
+    background-color: white;
+    color: black;
+}
+
 #vigilante > button:hover {
+    background-color: silver;
+    color: black;
+}
+
+#vigilante > .selected {
     background-color: silver;
     color: black;
 }
