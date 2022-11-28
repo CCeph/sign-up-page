@@ -136,10 +136,14 @@ input:focus {
     outline: 0;
 
     box-shadow: 5px 5px 15px 1px rgba(22, 22, 22, 0.747);
+
+    transition: box-shadow 0.3s, border 0.3s;
 }
 
 input:focus:invalid {
     border: 3px solid red;
+
+    transition: box-shadow 0.3s, border 0.3s;
 }
 
 /* Interactive styling for the Create Character button */
