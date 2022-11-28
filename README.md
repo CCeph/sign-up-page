@@ -34,3 +34,5 @@ Remaining work to be executed:
         only if the user exceeded it.
     
     Credit the animator of the gif.
+
+    Animate the borders of focus so that they fade in.
