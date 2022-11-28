@@ -122,7 +122,18 @@ form button {
     
 }
 
-/*Lifepath table styling*/
+/*  Styling of input form elements when they are focused, unfocused,
+    valid and invalid. */
+
+input:focus {
+    border: 2px solid #C420D3;
+    border-radius: 5px;
+    outline: 0;
+
+    box-shadow: 5px 5px 15px 1px rgba(22, 22, 22, 0.747);
+}
+
+/* Lifepath table styling */
 
 table {
     margin: 1em;
