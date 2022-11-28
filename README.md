@@ -19,15 +19,8 @@ Remaining work to be executed:
 
     Add "*" to every form element that is required.
 
-    Make sure that there is validation checking for required
-    form elements.
-
-    Highlight form elements in red when they are invalid. Only
-    after the form has been submitted once, or information was
-    filled in.
-
-    Adjust the default suggestion drop-down menu when focusing on
-    the character name field.
+    Add more styling to the "Create Character" button.
+        Add styling when it is pressed down.
 
     Adjust the text of the validation messages.
         Password validation should mention the password limit
