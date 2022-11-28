@@ -78,6 +78,17 @@ body {
     font-size: 3em;
 }
 
+h3 > :is(a, a:hover, a:focus, a:active) {
+    text-decoration: underline;
+    color: inherit;
+    color: #F51BC8;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+    font-family: titleFont;
+    font-size: normal;
+    
+}
+
 .right-form hr {
     width: 80%;
     margin: 0 auto;
